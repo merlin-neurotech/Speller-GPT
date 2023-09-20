@@ -10,7 +10,7 @@ import openai
 from pynput import keyboard
 
 # Replace 'YOUR_API_KEY' with your actual API key from OpenAI
-api_key = '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'
+api_key = 'YOUR_API_KEY'
 openai.api_key = api_key
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
@@ -40,7 +40,7 @@ import openai
 from pynput import keyboard
 
 # Replace 'YOUR_API_KEY' with your actual API key from OpenAI
-api_key = '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'
+api_key = 'YOUR_API_KEY'
 openai.api_key = api_key
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
@@ -67,7 +67,7 @@ import threading
 import time
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'YOUR_API_KEY'
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
