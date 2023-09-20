@@ -11,7 +11,7 @@ from pynput import keyboard
 import openai
 import time
 
-openai.api_key = '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'
+openai.api_key = 'UNIQUE API KEY' # message me for key
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
     messages = [{"role": "user", "content": prompt}]
