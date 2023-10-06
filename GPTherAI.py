@@ -12,7 +12,7 @@ import numpy as np
 import openai
 import time
 
-openai.api_key = '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'
+openai.api_key = ''
 
 class MyGPTTherapist:
     def __init__(self, run_length=60, interval_length=10, verbose=False):
